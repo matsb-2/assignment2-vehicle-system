@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         Driver driver1 = new Driver("Joseph Joestar", "ABC123");
-        Driver driver2 = new Driver("Akira Slide", "XYZ789");
+        Driver driver2 = new Driver("Robert Speedwagon", "XYZ789");
 
         Vehicle car = new Car("Toyota", 2020, driver1, 4, "Petrol");
         Vehicle motorcycle = new Motorcycle("Yamaha", 2018, driver1, false);
