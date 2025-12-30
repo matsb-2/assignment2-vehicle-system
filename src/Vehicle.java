@@ -24,4 +24,11 @@ public abstract class Vehicle {
             System.out.println("No driver assigned");
         }
     }
+    public void setDriver(Driver driver) {
+        this.driver = driver;
+    }
+    
+    public Driver getDriver() {
+        return driver;
+    }
 }
