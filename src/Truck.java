@@ -18,4 +18,9 @@ public class Truck extends Vehicle {
     public void stopEngine() {
         System.out.println("Truck engine stopped");
     }
+    @Override
+    public void displayInfo() {
+        super.displayInfo();
+        System.out.println("Capacity: " + capacity + " tons, Axles: " + numAxles);
+    }
 }
