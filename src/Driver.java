@@ -11,4 +11,11 @@ public class Driver {
     public void displayDriverInfo() {
         System.out.println("Driver: " + name + ", License: " + licenseNumber);
     }
-}
+    public String getName() {
+        return name;
+    }
+    
+    public String getLicenseNumber() {
+        return licenseNumber;
+    }
+ }
