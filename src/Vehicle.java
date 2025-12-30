@@ -2,7 +2,7 @@ public abstract class Vehicle {
 
     protected String brand;
     protected int year;
-    protected Driver driver; // композиция
+    protected Driver driver; 
 
     public Vehicle(String brand, int year, Driver driver) {
         this.brand = brand;
