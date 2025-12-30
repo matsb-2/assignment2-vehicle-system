@@ -18,8 +18,9 @@ public abstract class Vehicle {
     }
 
     public void displayDriver() {
-        if (driver != null) {
-            driver.displayDriverInfo();
+        if (v.getDriver() != null) {
+                v.getDriver().displayDriverInfo();
+        }
         } else {
             System.out.println("No driver assigned");
         }
